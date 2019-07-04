@@ -1,11 +1,11 @@
 require 'helper'
 require 'fluent/test/driver/parser'
-require 'fluent/plugin/parser_to_flat_json'
+require 'fluent/plugin/parser_simple_json'
 
 class ParserToFlatJson < Test::Unit::TestCase
   def setup
     Fluent::Test.setup
-    @parser = Fluent::Test::Driver::Parser.new(Fluent::Plugin::ToFlatJsonParser)
+    @parser = Fluent::Test::Driver::Parser.new(Fluent::Plugin::SimpleJsonParser)
   end
 
   data('oj' => 'oj', 'yajl' => 'yajl')

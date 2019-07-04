@@ -1,4 +1,4 @@
-# fluent-plugin-to-simple-json-parser
+# fluent-plugin-simple-json-parser
 
 fluentd parser plugin to create flattened JSON from nested JSON objects
 
@@ -6,7 +6,7 @@ fluentd parser plugin to create flattened JSON from nested JSON objects
 
 Add this line to your application's Gemfile:
 
-    gem 'fluent-plugin-to-simple-json-parser'
+    gem 'fluent-plugin-simple-json-parser'
 
 And then execute:
 

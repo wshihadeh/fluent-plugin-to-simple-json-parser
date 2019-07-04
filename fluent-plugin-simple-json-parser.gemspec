@@ -2,11 +2,11 @@
 $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = 'fluent-plugin-to-simple-json-parser'
-  gem.version     = '0.0.1'
+  gem.name        = 'fluent-plugin-simple-json-parser'
+  gem.version     = '0.0.3'
   gem.authors     = ['Al-waleed Shihadeh']
   gem.email       = 'wshihadh@gmail.com'
-  gem.homepage    = 'https://github.com/shihadeh/fluent-plugin-to-simple-json-parser'
+  gem.homepage    = 'https://github.com/shihadeh/fluent-plugin-simple-json-parser'
   gem.description = 'fluentd parser plugin to flatten nested json objects'
   gem.summary     = gem.description
   gem.licenses    = ['MIT']
